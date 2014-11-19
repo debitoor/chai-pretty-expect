@@ -2,9 +2,9 @@
   "name": "chai-pretty-expect",
   "version": "1.0.0",
   "description": "Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output",
-  "main": "index.js",
+  "main": "lib/chai-expect-pretty.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "homepage": "https://github.com/e-conomic/chai-pretty-expect",
   "dependencies": {
     "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
   }
 }

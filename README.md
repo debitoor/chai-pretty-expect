@@ -7,7 +7,8 @@ Usage
 =====
 
 ```js
- require('chai-pretty-expect')(chai)
+ var chai = require('chai');
+ chai.use(require('chai-pretty-expect'));
 
  //we are inside describe
  var response;
@@ -30,7 +31,5 @@ Usage
 ```
 
  This expect will prettyPrint the `response.body` if `statusCode` is not `200`. This is gives very nice error messages
-  and makes sure that you can debug more easily when tests fail. The Teamcity output on failing tests also becomes
-  much better.
-
+  and makes sure that you can debug more easily when tests fail.
 
