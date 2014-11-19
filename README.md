@@ -25,11 +25,11 @@ Usage
  });
 
  it("returns correct statusCode", function() {
-    expect(response, response.body).to.have.property("statusCode", 400);
+    expect(response, response.body).to.have.property("statusCode", 200);
  };
 
 ```
 
- This expect will prettyPrint the `response.body` if `statusCode` is not `200`. This is gives very nice error messages
-  and makes sure that you can debug more easily when tests fail.
+ This expect will prettyPrint the `response.body` if `statusCode` is not `200`. This is gives very nice error messages and makes sure that you can debug more easily when tests fail.
+ So instead of `[Object object]` you will get nice output of body
 
