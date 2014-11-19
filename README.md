@@ -31,5 +31,6 @@ Usage
 ```
 
  This expect will prettyPrint the `response.body` if `statusCode` is not `200`. This is gives very nice error messages and makes sure that you can debug more easily when tests fail.
+
  So instead of `[Object object]` you will get nice output of body
 
