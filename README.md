@@ -1,4 +1,4 @@
-chai-pretty-expect
+chai-pretty-expect [![Build Status](https://travis-ci.org/e-conomic/chai-pretty-expect.svg?branch=master)](https://travis-ci.org/e-conomic/chai-pretty-expect)
 ==================
 
 Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output.
