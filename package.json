@@ -17,6 +17,15 @@
     "output"
   ],
   "author": "e-conomic",
+  "contributors": [{
+    "name" : "Allan Ebdrup",
+    "email" : "allan@muscula.com"
+    }, {
+    "name" : "Andrii Shumada",
+    "email" : "eagleeyes91@gmail.com",
+    "url" : "http://eagleeye.github.io/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/e-conomic/chai-pretty-expect/issues"
