@@ -3,6 +3,10 @@ chai-pretty-expect [![Build Status](https://travis-ci.org/e-conomic/chai-pretty-
 
 Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output.
 
+Installation
+============
+`npm install --save-dev chai-pretty-expect`
+
 Usage
 =====
 
