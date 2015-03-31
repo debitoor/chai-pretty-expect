@@ -1,6 +1,6 @@
 {
   "name": "chai-pretty-expect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output",
   "main": "lib/chai-pretty-expect.js",
   "scripts": {
@@ -17,13 +17,15 @@
     "output"
   ],
   "author": "e-conomic",
-  "contributors": [{
-    "name" : "Allan Ebdrup",
-    "email" : "allan@muscula.com"
-    }, {
-    "name" : "Andrii Shumada",
-    "email" : "eagleeyes91@gmail.com",
-    "url" : "http://eagleeye.github.io/"
+  "contributors": [
+    {
+      "name": "Allan Ebdrup",
+      "email": "allan@muscula.com"
+    },
+    {
+      "name": "Andrii Shumada",
+      "email": "eagleeyes91@gmail.com",
+      "url": "http://eagleeye.github.io/"
     }
   ],
   "license": "MIT",
@@ -32,10 +34,10 @@
   },
   "homepage": "https://github.com/e-conomic/chai-pretty-expect",
   "dependencies": {
-    "lodash": "^2.4.1"
+    "lodash": "^3.6.0"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "mocha": "^2.0.1"
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
   }
 }

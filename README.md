@@ -1,4 +1,4 @@
-chai-pretty-expect [![Build Status](https://travis-ci.org/e-conomic/chai-pretty-expect.svg?branch=master)](https://travis-ci.org/e-conomic/chai-pretty-expect)
+chai-pretty-expect [![npm version](https://badge.fury.io/js/chai-pretty-expect.svg)](http://badge.fury.io/js/chai-pretty-expect) [![Build Status](https://travis-ci.org/e-conomic/chai-pretty-expect.svg?branch=master)](https://travis-ci.org/e-conomic/chai-pretty-expect) [![Dependency Status](https://david-dm.org/e-conomic/chai-pretty-expect.svg)](https://david-dm.org/e-conomic/chai-pretty-expect) [![devDependency Status](https://david-dm.org/e-conomic/chai-pretty-expect/dev-status.svg)](https://david-dm.org/e-conomic/chai-pretty-expect#info=devDependencies)
 ==================
 
 Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output.
