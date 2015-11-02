@@ -4,11 +4,12 @@
   "description": "Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output",
   "main": "lib/chai-pretty-expect.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/e-conomic/chai-pretty-expect.git"
+    "url": "git://github.com/debitoor/chai-pretty-expect.git"
   },
   "keywords": [
     "chai",
@@ -37,7 +38,9 @@
     "lodash": "^3.6.0"
   },
   "devDependencies": {
-    "chai": "^2.2.0",
-    "mocha": "^2.2.1"
+    "chai": "3.4.0",
+    "coveralls": "2.11.4",
+    "istanbul": "0.4.0",
+    "mocha": "2.3.3"
   }
 }
