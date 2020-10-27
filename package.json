@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/e-conomic/chai-pretty-expect",
   "dependencies": {
-    "lodash": "^3.6.0"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "chai": "3.4.0",
