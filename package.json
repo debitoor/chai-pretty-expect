@@ -1,6 +1,6 @@
 {
   "name": "chai-pretty-expect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Will JSON.stringify and pretty-print objects passed as 2nd, 3rd, ... parameter to expect, for nice test output",
   "main": "lib/chai-pretty-expect.js",
   "scripts": {
